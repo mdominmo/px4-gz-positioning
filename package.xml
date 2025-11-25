@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>px4_gz_positioning</name>
+  <version>1.0.0</version>
+  <description>PX4 gz positioning</description>
+  <maintainer email="mandominguez97@gmail.com">Manuel Domínguez Montero</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>gz-transport13</exec_depend>
+  <exec_depend>gz-msgs10</exec_depend>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>px4_msgs</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
