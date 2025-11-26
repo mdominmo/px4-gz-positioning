@@ -19,6 +19,16 @@ ament_target_dependencies(
     px4_msgs
 )
 
-install(TARGETS px4_gz_positioning_node DESTINATION lib/${PROJECT_NAME})
+install(
+    TARGETS 
+    px4_gz_positioning_node 
+    DESTINATION 
+    lib/${PROJECT_NAME}
+)
+
+install(
+    DIRECTORY launch
+    DESTINATION share/${PROJECT_NAME}/
+)
 
 ament_package()
